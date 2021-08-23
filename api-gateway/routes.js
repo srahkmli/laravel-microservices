@@ -1,5 +1,10 @@
 const ROUTES = [
     {
+        rateLimit: {
+            windowMs: 15 * 60 * 1000,
+            max: 5
+        },
+
         url: '/free',
         auth: false,
         creditCheck: false,
